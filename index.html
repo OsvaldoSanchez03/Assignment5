@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Assignment 5</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <br>
+        <h2>Calculate BMI</h2>
+    <div class="containerA">
+        <form action="">
+            <input type="text" placeholder="Enter Luca's Mass" id="LMass">
+            <input type="text" placeholder="Enter Luca's Height" id="LHeight">
+            <button onclick="CalculateLucasBMI()"> Calculate BMI </button>
+        </form>
+        <br>
+        <form action="">
+            <input type="text" placeholder="Enter Peter's Mass" id="PMass">
+            <input type="text" placeholder="Enter Peter's Height" id="PHeight">
+            <button onclick="CalculatePetersBMI()"> Calculate BMI </button>
+        </form>
+    </div>
+        <button onclick="CompareBMIs()">Compare BMIs</button>
+        <br> 
+        <br>   
+    </div>
+   <br>
+
+    <div class="containerB">
+        <div class="userInput">
+            <form action="">
+                <input type="text" placeholder="Enter Degrees in Fahrenhiet" id="fahrenhiet">
+                <button onclick="ConvertFahrenheitToCelsius()"> Convert </button>
+            </form>
+       <br>
+            <form action="">
+                <input type="text" placeholder="Enter Degrees in Celsius" id="Celsius">
+                <button onclick="ConvertCelsiusToFahrenheit()"> Convert </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

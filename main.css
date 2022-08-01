@@ -1,0 +1,60 @@
+body {
+    background-color: #DEEDF0;
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 150px;
+}
+
+
+/* .container {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+.mainContainer {   
+    text-align: center;
+    background-color: #FFF5EB ;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.containerA {
+    width: 100%;
+    height: 25%;
+    border-radius: 20px;
+    background-color: #FFF5EB;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.userInput {
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    background-color: #FFF5EB;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fahrenhiet, #Celsius, #LMass, #LHeight, #PMass, #PHeight {
+    border-radius: 20px;
+    padding: 5px;
+} button {
+    margin: 5px;
+    border-radius: 20px; 
+    background-color: #87A7B3;
+} button:hover {
+    background-color: white;
+    color: #87A7B3;
+}
+
